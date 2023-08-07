@@ -5,9 +5,9 @@
 
 class Program
 {
-    static int Sum(int a, int b)
+    static int Multiply(int a, int b)
     {
-        return a + b;
+        return a * b;
     }
 
     static void Main(string[] args)
@@ -16,9 +16,9 @@ class Program
 
         int num1 = 5;
         int num2 = 7;
-        int result = Sum(num1, num2);
+        int result = Multiply(num1, num2);
 
-        System.Console.WriteLine($"The sum of {num1} and {num2} is {result}");
+        System.Console.WriteLine($"The multiplication of {num1} and {num2} is {result}");
     }
 }
 
