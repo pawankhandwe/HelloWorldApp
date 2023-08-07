@@ -5,18 +5,18 @@
 
 class Program
 {
-    static int Multiply(int a, int b)
+    static int Division(int a, int b)
     {
-        return a * b;
+        return a / b;
     }
 
     static void Main(string[] args)
     {
         System.Console.WriteLine("Hello World!");
 
-        int num1 = 5;
+        int num1 = 14;
         int num2 = 7;
-        int result = Multiply(num1, num2);
+        int result = Division(num1, num2);
 
         System.Console.WriteLine($"The multiplication of {num1} and {num2} is {result}");
     }
