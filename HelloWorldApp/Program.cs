@@ -14,7 +14,7 @@ class Program
     {
         System.Console.WriteLine("Hello World!");
 
-        int num1 = 14;
+        int num1 = 21;
         int num2 = 7;
         int result = Division(num1, num2);
 
